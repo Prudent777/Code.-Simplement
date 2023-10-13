@@ -8,3 +8,9 @@ def multiply(a, b, c):
     def function(a, b, *args):
     print(a, b)
     print(args)
+
+    def multiply(*numbers):
+    result = 1
+    for n in numbers:
+        result = result * n
+    return result
